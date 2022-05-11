@@ -86,7 +86,7 @@ function update_command_status() {
     else
         arrow="%{$fg_bold[red]%}❱❱❱";
     fi
-    COMMAND_STATUS="${arrow}${reset_font}${color_reset}";
+    COMMAND_STATUS="\n${arrow}${reset_font}${color_reset}";
 }
 update_command_status true;
 
